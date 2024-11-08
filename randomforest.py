@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score, classification_report
 
 # Excel dosyasını oku
-file_path = 'verisilinmis2.xlsx'  # Excel dosyanın yolunu buraya ekle
+file_path = 'veriler.xlsx'  # Excel dosyanın yolunu buraya ekle
 excel_data = pd.read_excel(file_path, sheet_name=None)  # Tüm sayfaları oku
 
 
